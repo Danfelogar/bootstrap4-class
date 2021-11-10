@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
 
-function App() {
+// import { Containers } from './components/containers/Containers';
+// import { GridSystem } from './components/gridSystem/GridSystem';
+import { GridSystem2 } from './components/gridSystem/GridSystem2';
+
+
+export const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+        {/* <Containers /> */}
+        {/* <GridSystem /> */}
+        <GridSystem2 />
     </div>
-  );
+  )
 }
 
-export default App;
