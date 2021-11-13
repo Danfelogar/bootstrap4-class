@@ -4,6 +4,7 @@ import * as bootstrap from 'bootstrap';
 
 import { App } from './App';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/componentsProject/styless.css';
 
 ReactDOM.render(
   <React.StrictMode>
