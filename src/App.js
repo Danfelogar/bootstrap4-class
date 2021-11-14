@@ -35,10 +35,12 @@ import React from 'react';
 // import { Spinners } from './components/components/spinners/Spinners';
 // import { Toasts } from './components/components/toasts/Toasts';
 // import { Tooltips } from './components/components/tooltips/Tooltips';
+import { Cards } from './projectCards/Cards';
+import '../src/style/styles.css';
 
 export const App = () => {
   return (
-    <div>
+    <div className="App">
         {/* <Containers /> */}
         {/* <GridSystem /> */}
         {/* <GridSystem2 /> */}
@@ -74,6 +76,7 @@ export const App = () => {
         {/* <Spinners /> */}
         {/* <Toasts /> */}
         {/* <Tooltips /> */}
+        <Cards />
     </div>
   )
 }
